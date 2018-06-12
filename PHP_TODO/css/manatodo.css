@@ -1,0 +1,150 @@
+thead td{
+	font-weight:900;
+	color: #ff0066;
+	font-style: italic;
+	background-color:#FFF;
+	text-align: left;
+}
+body{margin: 0; font-family: 'ARIAL';}
+table caption{
+	background-color: #EEE;
+	text-align: left;
+	padding: 5px 10px;
+}
+table{
+	border-collapse: collapse;
+	direction: ltr;
+	width: 100%;
+	padding: 0;
+
+} 
+tr{
+	background-color: #eee;
+	
+}
+td span{
+	cursor: pointer;
+	color: #3399ff;
+}
+td span:hover{
+	color:  #ff4d4d;
+}
+code {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 10px;
+	display: block;
+}
+td input{
+	width: 90px;
+	float: left;
+	border: none;
+}
+.todolist [type="checkbox"]{
+	float: right;
+}
+
+table tr{
+	border-bottom: 1px solid #DDD;
+	padding: 10px 0;
+	
+}
+table td{
+	padding: 5px 5px;
+	letter-spacing: 1px;
+	margin: 0;
+	border: 1px solid #DDD;
+
+}
+caption h3{
+	margin: -5px 0;
+	font-size: 30px;
+}
+.todolist{
+	width: 68%;
+	float: right;
+}
+.createtodo{
+	float: left;
+	width: 30%;
+	padding: 0 10px 30px;
+	background-color: #555;
+	overflow: auto;
+	
+
+}
+.createtodo input,.createtodo textarea{
+	width: 90%;
+	border-radius: 20px;
+	padding: 20px 5px;
+	color: #222;
+}
+.createtodo{
+color: #eee;
+}
+.createtodo textarea{
+	height: 200px;
+	margin-top:20px;
+	font-size: 30px;
+}
+.createtodo form [type="submit"]{
+	width: 80px;
+	margin-top: 20px;
+	text-align: center;
+	left: 20px;
+	padding: 10px 5px;
+	background-color: #3399ff;
+	border: 1px solid #3399ff;
+	color: white;
+	letter-spacing: 2px;
+	height: 30px;
+	line-height: .5;
+	border-radius: 7px;
+}
+.decor{
+	text-decoration: line-through;
+
+}
+.upetxt{
+	color: #ff0066;
+	background-color: #3399ff;
+	border: 1px solid #777;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	padding: 4px 1px;
+	font-weight: 900;
+	font-style: italic;
+	margin-left: 10px;
+	display: none;
+	float: right;
+}
+.toper{
+	overflow: auto;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+}
+.toper h1{
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-family: "Forte";
+	font-weight: 900;
+	color: #ff0066;
+}
+.toper h1 i{
+	border-radius: 7px;
+	border:1px solid #fff;
+	padding: 3px;
+	color: white;
+}
+.leftleft{
+	background-color: #eee;
+	overflow: auto;
+}
+.leftleft a{
+	display: block;
+	text-decoration: none;
+	margin: 10px 0 10px 5px;
+	color: 
+
+}

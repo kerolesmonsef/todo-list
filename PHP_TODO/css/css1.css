@@ -1,0 +1,109 @@
+h1{
+	
+}
+body{
+	margin: 0;
+	font-family: 'Arial';
+}
+header{
+	background-color: #222;
+	color: #EEE;
+	text-align: center;
+	overflow: auto;
+}
+header h1{
+	font-family: 'Gigi';
+	font-size: 40px;
+}
+.container{
+	margin: auto;
+	width: 1200px;
+}
+.thebody input{
+	width: 250px;
+	height: 20px;
+	padding: 5px;
+	border: 1px solid #000;
+}
+.thebody h4{
+	color: #444;
+	font-size: 20px;
+	margin-bottom: 3px;
+}
+.thebody [type="submit"],button{
+	
+		border-radius: 10px;
+
+	padding: 15px;
+	background-color: #009900;
+	color: #EEE;
+	border:1px solid #777;
+	margin-top: 20px;
+	line-height: 2px;
+	font-size: 15px;
+	width: 140px;
+	letter-spacing: 2px;
+}
+.thebody form{
+
+	background-color: #EEE;
+	width: 700px;
+	padding: 0 10px 15px 40px;
+	border: 1px solid #AAA;
+	margin: 20px 0 0 150px;
+	border-radius: 7px;
+}
+form h1{
+	color: #222;
+}
+form p{
+	color: #3399ff;	
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+form p:hover{
+	text-decoration: underline;
+}
+#login_form{
+	
+}
+.error{
+	margin: 10px 410px 0 235px;
+	overflow: auto;
+	background-color:  #ffcccc;
+	color: red;
+	border-radius: 7px;
+	border: 1px solid #AAA;
+	padding: 10px;
+	text-align: center;
+}
+.succ{
+	margin: 10px 410px 0 235px;
+	overflow: auto;
+	background-color:#e6ffe6;
+	color: green;
+	border-radius: 7px;
+	border: 1px solid #AAA;
+	padding: 10px;
+	text-align: center;
+
+}
+.toper{
+	overflow: auto;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+}
+.toper h1{
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-family: "Forte";
+	font-weight: 900;
+	color: #ff0066;
+}
+.toper h1 i{
+	border-radius: 7px;
+	border:1px solid #fff;
+	padding: 3px;
+	color: white;
+}
