@@ -45,14 +45,15 @@ if(isset($_POST['create'])){ //for adding new one
 }
 function fff($str1,$str2)
 {
-$arr1=split("-", $str1);
-$arr2=split("-", $str2);
 
-$y=($arr1[0]-$arr2[0])*365;
-$m=($arr1[1]-$arr2[1])*30;
-$d=$arr1[2]-$arr2[2];
+	$arr1=explode("-", $str1);
+	$arr2=explode("-", $str2);
 
-return $y+$m+$d ;
+	$y=($arr1[0]-$arr2[0])*365;
+	$m=($arr1[1]-$arr2[1])*30;
+	$d=$arr1[2]-$arr2[2];
+
+	return $y+$m+$d ;
 }
 ?>
 
@@ -168,7 +169,6 @@ $('#log').click(function(){
  $('.create').mouseover(function(){
         	<?php $_COOKIE['addnewone']=true; //echo "alert(';dlkd;dk');"; ?>
     });
-alert();
 
 
 </script>
